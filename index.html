@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+    <script  src="http://code.jquery.com/jquery-3.2.1.min.js"  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="  crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/stles.css">
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row mar">
+        <div class="col-md-6">
+          <a href="#"class="logo"><img  src="img/logo.svg" alt="">Jond Doe</a>
+        </div>
+        <div class="col-md-6">
+          <nav>
+            <ul>
+              <li><a href="#"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+              <li><a href="#"><i class="fa fa-folder-open" aria-hidden="true"></i>Achievements</a></li>
+              <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="img-background">
+      <div class="text-background">
+        <div class="text-style">
+          <h1>-Kalmai kemuoti pakalnes nuplike-</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <a href="#">Read-more</a>
+        </div>
+      </div>
+    </div>
+    <!--...........................TABLE ...................................-->
+    <div class="container">
+      <div class="row">
+        <h2>-Some Heading</h2>
+        <div class="col-md-12">
+          <div class="diagrama">
+            <canvas id="myChart"></canvas>
+            <script type="text/javascript">
+            var ctx = document.getElementById('myChart').getContext('2d');
+            var chart = new Chart(ctx, {
+              type: 'doughnut',
+
+    // The data for our dataset
+            data: {
+                labels: ["January", "February", "March"],
+                datasets: [{
+                    label: "My First dataset",
+                    backgroundColor: ['rgb(255, 99, 132)','red','pink'],
+                    data: [3, 10, 5, ],
+                }]
+            },
+
+            // Configuration options go here
+            options: {
+              legend:false
+            }
+          });
+            </script>
+          </div>
+
+
+        </div>
+      </div>
+<!---....................icons....................................-->
+      <div class="row mar">
+        <h2>-Some Heading</h2>
+        <div class="col-md-4">
+          <div class="icon">
+            <i class="fa fa-coffee" aria-hidden="true"></i>
+          </div>
+          <h2>-Some heading 2</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="col-md-4">
+          <div class="icon">
+            <i class="fa fa-flask" aria-hidden="true"></i>
+          </div>
+          <h2>-Some heading 2</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="col-md-4">
+          <div class="icon">
+            <i class="fa fa-flask" aria-hidden="true"></i>
+          </div>
+          <h2>-Some heading 2</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+      <!--............................................. Articles.............................................. -->
+      <h2>-Some heading</h2>
+      <div class="row">
+            <div class="col-md-6 article-style">
+              <h3>Dalyku dalykas</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <a href="#">ream more<i class="fa fa-plus" aria-hidden="true"></i></a>
+            </div>
+            <div class="col-md-6 imagesize">
+              <img src="img/real/1.png" alt="">
+            </div>
+          </div>
+      <div class="row">
+            <div class="col-md-6 imagesize">
+              <img src="img/real/2.png" alt="">
+            </div>
+            <div class="col-md-6 article-style">
+              <h3>Dalyku dalykas</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <a href="#">ream more<i class="fa fa-plus" aria-hidden="true"></i></a>
+            </div>
+          </div>
+      <div class="row">
+        <div class="col-md-6 article-style ">
+          <h3>Dalyku dalykas</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <a href="#">ream more<i class="fa fa-plus" aria-hidden="true"></i></a>
+        </div>
+        <div class="col-md-6 imagesize">
+          <img src="img/real/3.png" alt="">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 imagesize">
+          <img src="img/real/4.png" alt="">
+        </div>
+        <div class="col-md-6 article-style">
+          <h3>Dalyku dalykas</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <a href="#">ream more <i class="fa fa-plus" aria-hidden="true"></i></a>
+        </div>
+      </div>
+<!--............................................. Forma........................................................... -->
+      <h2>Forma</h2>
+      <div class="row">
+        <div class="col-md-12">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <form class="form">
+          <div class="col-md-6 ">
+
+              <input class="textinput"type="text" name="" value="Name">
+
+
+          </div>
+          <div class="col-md-6">
+            <input class="textinput2"type="text" name="" value="Email">
+          </div>
+          <div class="col-md-12">
+            <input class="textinput2"type="text" name="" value="Bla bla">
+          </div>
+          </form>
+      </div>
+
+      </div>
+
+      </div>
+
+    </div>
+  </body>
+</html>
